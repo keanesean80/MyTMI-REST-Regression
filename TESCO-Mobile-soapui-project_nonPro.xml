@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project activeEnvironment="MVNE_TEST1_ONLINE" name="MyTMI REST" resourceRoot="${projectDir}" soapui-version="6.0.0" abortOnError="false" runType="SEQUENTIAL" id="674f3f5a-101d-447c-88b4-b73a41dd2865" lastOpened="2017-04-26T14:08:09.066+01:00" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project activeEnvironment="MVNE_TEST1_ONLINE" name="MyTMI REST" resourceRoot="${projectDir}" soapui-version="6.0.0" abortOnError="false" runType="SEQUENTIAL" id="674f3f5a-101d-447c-88b4-b73a41dd2865" lastOpened="2017-04-27T15:16:45.285+01:00" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Report Format(s)" value=""/>
   <con:entry key="Host:Port" value=""/>
   <con:entry key="Export JUnit Results" value="false"/>
@@ -1062,7 +1062,7 @@
   &lt;con:entry key="Authorization" value="Basic MDg1Mjg5MTcwNjp0ZXN0ZXI="/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
-&lt;/xml-fragment></con:setting></con:settings><con:endpoint>http://10.252.7.16:48080</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="0852891706" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:request></con:method><con:method name="DELETE" id="765bf025-f9b9-4099-ac4c-a20eb386eabf" method="DELETE"><con:settings/><con:parameters/><con:request name="Request 1" id="312d28ec-aa7a-468e-ac6b-e1aea050d769" mediaType="application/json" postQueryString="false"><con:settings/><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource><con:resource name="topup/{msisdn}" path="topup/{msisdn}" id="28ab96f9-dc7a-499c-9a61-84f01788c17c"><con:settings/><con:parameters><con:parameter><con:name>msisdn</con:name><con:value xsi:nil="true"/><con:style>TEMPLATE</con:style><con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:string</con:type><con:default xsi:nil="true"/></con:parameter></con:parameters><con:method name="POST" method="POST" id="c46e39b6-0ed3-4c31-8f67-804b5d747084"><con:settings/><con:parameters/><con:request name="PAYG topping up itself" mediaType="application/json" postQueryString="false" accept="" id="f540f3fb-9272-4e84-8890-fd5c2329454c"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+&lt;/xml-fragment></con:setting></con:settings><con:endpoint>http://10.252.7.16:48080</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="0852891706" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:request></con:method><con:method name="DELETE" id="765bf025-f9b9-4099-ac4c-a20eb386eabf" method="DELETE"><con:settings/><con:parameters/><con:request name="Request 1" id="312d28ec-aa7a-468e-ac6b-e1aea050d769" mediaType="application/json" postQueryString="false"><con:settings/><con:endpoint>http://10.252.65.32:51445</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource><con:resource name="topup/{msisdn}" path="topup/{msisdn}" id="28ab96f9-dc7a-499c-9a61-84f01788c17c"><con:settings/><con:parameters><con:parameter><con:name>msisdn</con:name><con:value xsi:nil="true"/><con:style>TEMPLATE</con:style><con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:string</con:type><con:default xsi:nil="true"/></con:parameter></con:parameters><con:method name="POST" method="POST" id="c46e39b6-0ed3-4c31-8f67-804b5d747084"><con:settings/><con:parameters/><con:request name="PAYG topping up itself" mediaType="application/json" postQueryString="false" accept="" id="f540f3fb-9272-4e84-8890-fd5c2329454c"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="Basic MDg2Mzg1MzAyMzpwYXNzd29yZA=="/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
@@ -11388,7 +11388,7 @@
          </wrap:ViewPlanChangesRequest>\r
       </wrap:ViewPlanChanges>\r
    </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://conductor/ViewPlanChanges"/></con:call></con:operation></con:interface><con:testSuite id="b2ecf684-5472-4c19-967c-ef11dd89777d" name="PAYG"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="432e2dcd-2665-4125-b520-99cabaa99999" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v1 - CUSTOMER_REGISTERED" searchProperties="true" maxResults="0" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://conductor/ViewPlanChanges"/></con:call></con:operation></con:interface><con:testSuite id="b2ecf684-5472-4c19-967c-ef11dd89777d" name="PAYG"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="432e2dcd-2665-4125-b520-99cabaa99999" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v1 - CUSTOMER_REGISTERED" searchProperties="true" maxResults="0" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="jdbc" name="Find reserved SIM" id="ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
 from storage_medium
 where business_unit_id = 3
 and sm_status = 'r'
@@ -11429,7 +11429,11 @@ from contract_all
 where co_code = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/AccountId[1]}'</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If active then proceed" id="a5d26528-b9d8-4538-9a3d-7d2b002fc00f"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>status a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] = 'a'</con:expression></con:condition><con:condition><con:name>status not a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] != 'a'</con:expression><con:targetStep>Wait for account setup to complete</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="Basic Registration" id="c0f1e42c-ded1-4a26-8707-f3485685221e"><con:settings/><con:config service="MyTescoMobile" methodName="POST" resourcePath="/user/selfCareRegistration/" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Basic Registration" id="e2c8913b-90b7-482b-9bf6-6a12826d67c6" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.support.editor.views.xml.form2.FormEditorView@ViewType">All</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request>{
    "msisdn": "${#TestSuite#CUSTOMER_REGISTERED}",
    "securityQuestionPassword": "${CreateCustomer#Request#declare namespace wrap='http://conductor/customer/vo/wrapper/'; declare namespace vo='http://conductor/customer/vo/'; //wrap:CreateCustomer[1]/wrap:customer[1]/vo:securityQuestionPassword[1]}"
-}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="a7fa81b1-53d1-40ae-b038-907b089d8989" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="5a50f184-a88d-4248-8400-5b900842d88f"><con:settings/><con:config><delay>15000</delay></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="8614fcc4-2d11-4e84-9665-5581e2fdbead"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
+}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="a7fa81b1-53d1-40ae-b038-907b089d8989" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="5a50f184-a88d-4248-8400-5b900842d88f"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if new customer and account creation is complete" id="11afc49a-2bd9-42cb-bf2e-a9437aa16bab"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select request from mdsrrtab
+where co_id = (select co_id from 
+contr_services_cap where cs_deactiv_date is null
+and dn_id = (select dn_id from directory_number 
+where dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'))</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="fda19c5e-d480-4767-bed8-87169e96d173"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>pending request</con:name><con:type>XPATH</con:type><con:expression>exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1])</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition><con:condition><con:name>no pending request</con:name><con:type>XPATH</con:type><con:expression>not(exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1]))</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="8614fcc4-2d11-4e84-9665-5581e2fdbead"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
 //ns1:Response[1]/ns1:msisdn[1]</path><content>${CreateAccount#Response#declare namespace ns12='http://conductor/account/vo/wrapper/'; //ns12:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="${#TestSuite#CUSTOMER_REGISTERED}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="request" name="ResetPassword" id="49260d80-c245-41b4-b5b5-137a58d749cc"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>PortalUserWebServiceBinding</con:interface><con:operation>ResetPassword</con:operation><con:request name="ResetPassword" id="63d59e9a-c535-4a3d-bf6b-850fcc27340a" defaultOutgoingWss="TMI" defaultIncomingWss="" outgoingWss="TMI" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#SOAP}/conductor/webservices/Portal_User_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://conductor/portaluser/vo/wrapper/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -11456,7 +11460,7 @@ String encoded = msisdnAndPassword.bytes.encodeBase64().toString()
 log.info "The encrypted string is: "+encoded
 
 context.testRunner.testCase.testSuite.setPropertyValue("CUST_REG_Encoded", "Basic "+encoded)
-</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8614fcc4-2d11-4e84-9665-5581e2fdbead</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5a50f184-a88d-4248-8400-5b900842d88f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ee67938d-38fd-4855-bbe6-74fcaaaebaa5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d67cd852-187e-4d23-ba49-78f58f4e1099</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1eb52051-f4ec-4998-bbd4-8eccdc490b30</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c0f1e42c-ded1-4a26-8707-f3485685221e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>49260d80-c245-41b4-b5b5-137a58d749cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9da1a636-c169-49e9-98c5-9e0f93831d13</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>7a97ec9a-305c-4599-bf8a-f132e4ad3d6a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a5d26528-b9d8-4538-9a3d-7d2b002fc00f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="317dd359-52c0-405e-8ccb-7c94765f76ca" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v1 - NOT_REGISTERED" searchProperties="true" maxResults="0"><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="748a7602-42a5-489d-9110-419beac07db4"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
+</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8614fcc4-2d11-4e84-9665-5581e2fdbead</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5a50f184-a88d-4248-8400-5b900842d88f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ee67938d-38fd-4855-bbe6-74fcaaaebaa5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d67cd852-187e-4d23-ba49-78f58f4e1099</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1eb52051-f4ec-4998-bbd4-8eccdc490b30</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c0f1e42c-ded1-4a26-8707-f3485685221e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>49260d80-c245-41b4-b5b5-137a58d749cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9da1a636-c169-49e9-98c5-9e0f93831d13</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>7a97ec9a-305c-4599-bf8a-f132e4ad3d6a</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a5d26528-b9d8-4538-9a3d-7d2b002fc00f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>11afc49a-2bd9-42cb-bf2e-a9437aa16bab</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fda19c5e-d480-4767-bed8-87169e96d173</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="317dd359-52c0-405e-8ccb-7c94765f76ca" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v1 - NOT_REGISTERED" searchProperties="true" maxResults="0"><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="748a7602-42a5-489d-9110-419beac07db4"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
 from storage_medium
 where business_unit_id = 3
 and sm_status = 'r'
@@ -11497,7 +11501,11 @@ from contract_all ca
 join contr_services_cap csc on ca.co_id = csc.co_id
 join directory_number dn on dn.dn_id = csc.dn_id
 where csc.CS_DEACTIV_DATE is null
-and dn.dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="ed781ecd-b2d2-49b8-84b8-3095e07cff77"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>status a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] = 'a'</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition><con:condition><con:name>status not a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] != 'a'</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="0676635b-9110-461a-9641-c02e8fbd27c5"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="8ba918cf-420c-457f-8fe5-7d52721ffb64"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
+and dn.dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="ed781ecd-b2d2-49b8-84b8-3095e07cff77"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>status a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] = 'a'</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition><con:condition><con:name>status not a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] != 'a'</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="0676635b-9110-461a-9641-c02e8fbd27c5"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if new customer and account creation is complete" id="3efa1285-6d13-4605-8388-4a226d755be8"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select request from mdsrrtab
+where co_id = (select co_id from 
+contr_services_cap where cs_deactiv_date is null
+and dn_id = (select dn_id from directory_number 
+where dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'))</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If registration complete then proceed" id="c8b9dccc-0bd4-46f3-8491-bba3adb2145d"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>pending request</con:name><con:type>XPATH</con:type><con:expression>exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1])</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition><con:condition><con:name>no pending request</con:name><con:type>XPATH</con:type><con:expression>not(exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1]))</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="8ba918cf-420c-457f-8fe5-7d52721ffb64"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
 //ns1:Response[1]/ns1:msisdn[1]</path><content>${CreateAccount#Response#declare namespace ns12='http://conductor/account/vo/wrapper/'; //ns12:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="request" name="ResetPassword" id="9d2c5d7b-361d-4873-9103-4ede8649dc59"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>PortalUserWebServiceBinding</con:interface><con:operation>ResetPassword</con:operation><con:request name="ResetPassword" id="63d59e9a-c535-4a3d-bf6b-850fcc27340a" defaultOutgoingWss="TMI" defaultIncomingWss="" outgoingWss="TMI" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#SOAP}/conductor/webservices/Portal_User_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://conductor/portaluser/vo/wrapper/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -11524,7 +11532,7 @@ String encoded = msisdnAndPassword.bytes.encodeBase64().toString()
 log.info "The encrypted string is: "+encoded
 
 context.testRunner.testCase.testSuite.setPropertyValue("NOT_REG_Encoded", "Basic "+encoded)
-</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>b8736260-773c-4ead-89e2-fdb9f5590417</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8c72b39a-c78a-4e68-8f1c-84de5d7aa3fe</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a70e3096-25d1-4f41-8030-e0643df6b8ad</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ed781ecd-b2d2-49b8-84b8-3095e07cff77</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="8ab2804a-d484-4c18-aec7-84b15adf73a5" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v2 - CUSTOMER_REGISTERED" searchProperties="true" maxResults="0" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="20ea04a8-f945-4ccf-b3b5-437f78987bfe"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
+</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>b8736260-773c-4ead-89e2-fdb9f5590417</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8c72b39a-c78a-4e68-8f1c-84de5d7aa3fe</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a70e3096-25d1-4f41-8030-e0643df6b8ad</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ed781ecd-b2d2-49b8-84b8-3095e07cff77</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3efa1285-6d13-4605-8388-4a226d755be8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c8b9dccc-0bd4-46f3-8491-bba3adb2145d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="8ab2804a-d484-4c18-aec7-84b15adf73a5" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v2 - CUSTOMER_REGISTERED" searchProperties="true" maxResults="0" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="20ea04a8-f945-4ccf-b3b5-437f78987bfe"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum
 from storage_medium
 where business_unit_id = 3
 and sm_status = 'r'
@@ -11586,7 +11594,11 @@ where username = '${#TestSuite#CUSTOMER_REGISTERED_V2}'</con:query><con:assertio
 &lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request>{
    "msisdn": "${#TestSuite#CUSTOMER_REGISTERED_V2}",
    "securityQuestionPassword": "${CreateCustomer#Request#declare namespace wrap='http://conductor/customer/vo/wrapper/'; declare namespace vo='http://conductor/customer/vo/'; //wrap:CreateCustomer[1]/wrap:customer[1]/vo:securityQuestionPassword[1]}"
-}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="f40c0f4a-2c9f-4817-a0bb-ff59535913b1" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="ed6cfa42-3aa1-470a-806e-04fabf4caaab"><con:settings/><con:config><delay>15000</delay></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="bffc2a2a-d8df-4d9f-b3e3-a895439e391a"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
+}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="f40c0f4a-2c9f-4817-a0bb-ff59535913b1" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="ed6cfa42-3aa1-470a-806e-04fabf4caaab"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if new customer and account creation is complete" id="3664af2c-cf9d-4a92-81fc-2b0f4cea4a82"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select request from mdsrrtab
+where co_id = (select co_id from 
+contr_services_cap where cs_deactiv_date is null
+and dn_id = (select dn_id from directory_number 
+where dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'))</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="ce62009b-214b-4793-a460-5c4d4aa09ca7"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>pending request</con:name><con:type>XPATH</con:type><con:expression>exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1])</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition><con:condition><con:name>no pending request</con:name><con:type>XPATH</con:type><con:expression>not(exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1]))</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="bffc2a2a-d8df-4d9f-b3e3-a895439e391a"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
 //ns1:Response[1]/ns1:msisdn[1]</path><content>${CreateAccount#Response#declare namespace ns12='http://conductor/account/vo/wrapper/'; //ns12:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="${#TestSuite#CUSTOMER_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="request" name="ResetPassword" id="39387b9f-50d6-42ca-abc8-c85d80a83aad"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>PortalUserWebServiceBinding</con:interface><con:operation>ResetPassword</con:operation><con:request name="ResetPassword" id="63d59e9a-c535-4a3d-bf6b-850fcc27340a" defaultOutgoingWss="TMI" defaultIncomingWss="" outgoingWss="TMI" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#SOAP}/conductor/webservices/Portal_User_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://conductor/portaluser/vo/wrapper/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -11613,7 +11625,7 @@ String encoded = msisdnAndPassword.bytes.encodeBase64().toString()
 log.info "The encrypted string is: "+encoded
 
 context.testRunner.testCase.testSuite.setPropertyValue("CUST_REG_Encoded_V2", "Basic "+encoded)
-</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8614fcc4-2d11-4e84-9665-5581e2fdbead</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5a50f184-a88d-4248-8400-5b900842d88f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1423adf5-1c4a-4e54-a28a-5d2d54899f8b</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ee67938d-38fd-4855-bbe6-74fcaaaebaa5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d67cd852-187e-4d23-ba49-78f58f4e1099</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1eb52051-f4ec-4998-bbd4-8eccdc490b30</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c0f1e42c-ded1-4a26-8707-f3485685221e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>49260d80-c245-41b4-b5b5-137a58d749cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9da1a636-c169-49e9-98c5-9e0f93831d13</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a88dd703-03ee-4531-815c-1f025b9d01cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>427d85a7-f43f-4197-bf87-a38a65f3d870</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6ef85285-98da-4857-a5fa-3b9cc8f45a94</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>86d672c5-fafd-4efa-b6f6-aca17beedef7</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0605ea20-857e-4aaf-917b-6211211f53c1</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3c0c2842-6888-4837-8731-16a6c5505d83</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="02587785-fcb8-40cf-ba91-021adc644779" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v2 - NOT_REGISTERED" searchProperties="true" maxResults="0"><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="d821efa4-bcbe-4216-a6df-298d400ffead"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum, sm_pin, sm_puk, sm_pin2, sm_puk2
+</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8614fcc4-2d11-4e84-9665-5581e2fdbead</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5a50f184-a88d-4248-8400-5b900842d88f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1423adf5-1c4a-4e54-a28a-5d2d54899f8b</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac0c2cb9-8bdf-4361-9d3d-0a0eb4f2bcbb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ee67938d-38fd-4855-bbe6-74fcaaaebaa5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d67cd852-187e-4d23-ba49-78f58f4e1099</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>1eb52051-f4ec-4998-bbd4-8eccdc490b30</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c0f1e42c-ded1-4a26-8707-f3485685221e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>49260d80-c245-41b4-b5b5-137a58d749cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9da1a636-c169-49e9-98c5-9e0f93831d13</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a88dd703-03ee-4531-815c-1f025b9d01cc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>427d85a7-f43f-4197-bf87-a38a65f3d870</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6ef85285-98da-4857-a5fa-3b9cc8f45a94</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>86d672c5-fafd-4efa-b6f6-aca17beedef7</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0605ea20-857e-4aaf-917b-6211211f53c1</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3c0c2842-6888-4837-8731-16a6c5505d83</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3664af2c-cf9d-4a92-81fc-2b0f4cea4a82</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ce62009b-214b-4793-a460-5c4d4aa09ca7</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="02587785-fcb8-40cf-ba91-021adc644779" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Portal Registration v2 - NOT_REGISTERED" searchProperties="true" maxResults="0"><con:settings/><con:testStep type="jdbc" name="Find reserved SIM" id="d821efa4-bcbe-4216-a6df-298d400ffead"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select sm_serialnum, sm_pin, sm_puk, sm_pin2, sm_puk2
 from storage_medium
 where business_unit_id = 3
 and sm_status = 'r'
@@ -11693,12 +11705,16 @@ where username = '${#TestSuite#NOT_REGISTERED_V2}'</con:query><con:assertion typ
    "country": "IRL",
    "email": "a@b.com",
    "securityQuestionPassword": "${Find Bulk Customer#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/CSPASSWORD[1]}"
-}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="598cc82f-f2ce-4852-8872-b06b674d9f3b" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="fec24e95-e14f-4937-a079-f405c51ec5cf"><con:settings/><con:config><delay>10000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if account takeover is complete" id="fecfd8a5-3786-4d2c-90ad-dbd955975d48"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select  ca.ch_status
+}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="598cc82f-f2ce-4852-8872-b06b674d9f3b" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="fec24e95-e14f-4937-a079-f405c51ec5cf"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if new customer and account creation is complete" id="4ba3e0ec-5f63-4095-a667-374df20336af"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select request from mdsrrtab
+where co_id = (select co_id from 
+contr_services_cap where cs_deactiv_date is null
+and dn_id = (select dn_id from directory_number 
+where dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'))</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="8dd73377-026c-40d1-aeb0-28d76bff4f33"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>pending request</con:name><con:type>XPATH</con:type><con:expression>exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1])</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition><con:condition><con:name>no pending request</con:name><con:type>XPATH</con:type><con:expression>not(exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1]))</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="jdbc" name="Check if account takeover is complete" id="fecfd8a5-3786-4d2c-90ad-dbd955975d48" disabled="true"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select  ca.ch_status
 from contract_all ca
 join contr_services_cap csc on ca.co_id = csc.co_id
 join directory_number dn on dn.dn_id = csc.dn_id
 where csc.CS_DEACTIV_DATE is null
-and dn.dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="7b93b9c1-2a6f-43e6-a429-1a1cded26172"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>status a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] = 'a'</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition><con:condition><con:name>status not a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] != 'a'</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="2b071a5f-00dd-4a89-af8d-4fe078b57838"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
+and dn.dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed_OLD" id="7b93b9c1-2a6f-43e6-a429-1a1cded26172" disabled="true"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>status a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] = 'a'</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition><con:condition><con:name>status not a</con:name><con:type>XPATH</con:type><con:expression>//Results[1]/ResultSet[1]/Row[1]/CH_STATUS[1] != 'a'</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="2b071a5f-00dd-4a89-af8d-4fe078b57838"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
 //ns1:Response[1]/ns1:msisdn[1]</path><content>${CreateAccount#Response#declare namespace ns12='http://conductor/account/vo/wrapper/'; //ns12:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="request" name="ResetPassword" id="004f313a-d90d-4537-91f4-84a2af3f88dd"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>PortalUserWebServiceBinding</con:interface><con:operation>ResetPassword</con:operation><con:request name="ResetPassword" id="63d59e9a-c535-4a3d-bf6b-850fcc27340a" defaultOutgoingWss="TMI" defaultIncomingWss="" outgoingWss="TMI" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#SOAP}/conductor/webservices/Portal_User_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://conductor/portaluser/vo/wrapper/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -11725,7 +11741,7 @@ String encoded = msisdnAndPassword.bytes.encodeBase64().toString()
 log.info "The encrypted string is: "+encoded
 
 context.testRunner.testCase.testSuite.setPropertyValue("NOT_REG_Encoded_V2", "Basic "+encoded)
-</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6872c9f6-af36-4394-b59a-4bdd997ad360</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>583ac26e-672e-451a-a131-29d49cf21ad8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a84b8c67-ae7f-497f-bf29-3644e4f71e50</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>32ae860d-9715-4678-ad13-98da3c62ce4c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>326ebe0c-8054-4c27-9456-d1c3792867c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>242c5b57-dc77-40b9-8bca-41b384a5f249</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>eb428419-99f5-4069-93f5-3d67d2689ddb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>f926d898-be58-4ea6-9329-0ef061a86aff</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fecfd8a5-3786-4d2c-90ad-dbd955975d48</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>7b93b9c1-2a6f-43e6-a429-1a1cded26172</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fec24e95-e14f-4937-a079-f405c51ec5cf</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="e517894b-d549-4c6a-a9db-fde1f4686cd7" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Login Flow for PAYG with no bundles or card" searchProperties="true" timeout="0"><con:settings/><con:testStep type="restrequest" name="GetPermissions" id="b7a9644f-54f9-493e-823f-5e8d02afee0d"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/permissions/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetPermissions" id="27d9a94a-9860-42cf-9fc7-2845c9aa5acc" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6872c9f6-af36-4394-b59a-4bdd997ad360</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>583ac26e-672e-451a-a131-29d49cf21ad8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a84b8c67-ae7f-497f-bf29-3644e4f71e50</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>32ae860d-9715-4678-ad13-98da3c62ce4c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>326ebe0c-8054-4c27-9456-d1c3792867c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>242c5b57-dc77-40b9-8bca-41b384a5f249</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>eb428419-99f5-4069-93f5-3d67d2689ddb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>f926d898-be58-4ea6-9329-0ef061a86aff</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fecfd8a5-3786-4d2c-90ad-dbd955975d48</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>7b93b9c1-2a6f-43e6-a429-1a1cded26172</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fec24e95-e14f-4937-a079-f405c51ec5cf</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>4ba3e0ec-5f63-4095-a667-374df20336af</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8dd73377-026c-40d1-aeb0-28d76bff4f33</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="e517894b-d549-4c6a-a9db-fde1f4686cd7" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Login Flow for PAYG with no bundles or card" searchProperties="true" timeout="0"><con:settings/><con:testStep type="restrequest" name="GetPermissions" id="b7a9644f-54f9-493e-823f-5e8d02afee0d"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/permissions/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetPermissions" id="27d9a94a-9860-42cf-9fc7-2845c9aa5acc" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#NOT_REG_Encoded_V2}"/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
@@ -12180,7 +12196,7 @@ context.testRunner.testCase.testSuite.setPropertyValue("CUST_REG_NewPword", "Bas
   &lt;con:entry key="Authorization" value="${#TestSuite#CUST_REG_NewPword}"/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
-&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/addon/0894999597</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#CUSTOMER_REGISTERED}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>CUSTOMER_REGISTERED</con:name><con:value>0894005047</con:value></con:property><con:property><con:name>CUST_REG_Encoded</con:name><con:value>Basic MDg5NDAwNTA0NzpwYXNzd29yZA==</con:value></con:property><con:property><con:name>NOT_REGISTERED</con:name><con:value>0894005048</con:value></con:property><con:property><con:name>NOT_REG_Encoded</con:name><con:value>Basic MDg5NDAwNTA0ODpwYXNzd29yZA==</con:value></con:property><con:property><con:name>PAYG_DATAONLY</con:name><con:value>0894826568</con:value></con:property><con:property><con:name>NewExpMonth</con:name><con:value>02</con:value></con:property><con:property><con:name>NewExpYear</con:name><con:value>19</con:value></con:property><con:property><con:name>CUST_REG_NewPword</con:name><con:value>Basic MDg5NDk5OTczNzpwYXNzd29yZDE=</con:value></con:property><con:property><con:name>PAYLOAD</con:name><con:value>eJzVWFmTolzSvudXdPRcEm+zK75RXRGHfRFkVfGOTRYBRUCQX/+htdn11cz09FyNEUZJnsw8+WQ+
+&lt;/xml-fragment></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/addon/0894999597</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#CUSTOMER_REGISTERED}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>CUSTOMER_REGISTERED</con:name><con:value>0894010017</con:value></con:property><con:property><con:name>CUST_REG_Encoded</con:name><con:value>Basic MDg5NDAxMDAxNzpwYXNzd29yZA==</con:value></con:property><con:property><con:name>NOT_REGISTERED</con:name><con:value>0894005048</con:value></con:property><con:property><con:name>NOT_REG_Encoded</con:name><con:value>Basic MDg5NDAwNTA0ODpwYXNzd29yZA==</con:value></con:property><con:property><con:name>PAYG_DATAONLY</con:name><con:value>0894826568</con:value></con:property><con:property><con:name>NewExpMonth</con:name><con:value>02</con:value></con:property><con:property><con:name>NewExpYear</con:name><con:value>19</con:value></con:property><con:property><con:name>CUST_REG_NewPword</con:name><con:value>Basic MDg5NDk5OTczNzpwYXNzd29yZDE=</con:value></con:property><con:property><con:name>PAYLOAD</con:name><con:value>eJzVWFmTolzSvudXdPRcEm+zK75RXRGHfRFkVfGOTRYBRUCQX/+htdn11cz09FyNEUZJnsw8+WQ+
 J/MU0JOTnuOYs+OwO8fP0LdvT1rcNH4Sf8uin99P/g+KJlFiRlLfb4vTsgGsuPm8+KPJkiqOXnUm
 rUt8brJj9Yz9QH/gT8jb49uyFp/D1K/aN8Ek8sOakfVnisQpjHpCXh8/1sv4LHPPixlBU/icRF8+
 T8iL+M0v8tnxk9HdBE384GnIomeNA/3jV3cSVOM0XOfcn0/ITeNDP/Lb+BlHsTmK4+Q3DPubpP9G
@@ -12658,7 +12674,7 @@ where msisdn = '${#[PAYG#Portal Registration - CUSTOMER_REGISTERED#CreateAccount
 </token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple Contains" id="abc32869-49e8-4fb7-b34c-15e6f9bf7f81" name="Verify Recurrence"><con:configuration><token>&lt;RECURRENCE>N&lt;/RECURRENCE>
 </token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple Contains" id="f1cfba4c-042e-4437-8dc9-3ae17e012772" name="Verify PaymentType"><con:configuration><token>&lt;PAYMENT_TYPE>0&lt;/PAYMENT_TYPE>
 </token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple Contains" id="90cb51b4-4cac-4f3d-9920-3af467291891" name="Verify Amount"><con:configuration><token>&lt;AMOUNT>0&lt;/AMOUNT>
-</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:properties/></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c1a5b2a9-2995-45c8-981f-3ba111c4a077</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>33d317b6-abbf-4b8e-b739-eb87eb0f0645</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>005eb992-0692-44bc-abcb-3f774ecc0d39</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>09ebf66e-ef26-44e2-813f-fb42107a537f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="739844bc-10f7-43af-98d1-7618e103d518" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="true" name="Register Card" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" maxResults="0"><con:settings/><con:testStep type="restrequest" name="GETCard" id="595139b7-78bf-4f6d-90cf-f5ff71da4d2d"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/payment/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of GETCard" id="a3fd5a5f-689c-4ed1-ab07-825d90d5dc82" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:properties/></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c1a5b2a9-2995-45c8-981f-3ba111c4a077</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>33d317b6-abbf-4b8e-b739-eb87eb0f0645</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>005eb992-0692-44bc-abcb-3f774ecc0d39</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>09ebf66e-ef26-44e2-813f-fb42107a537f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="739844bc-10f7-43af-98d1-7618e103d518" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="true" name="Register Card" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" maxResults="0"><con:settings/><con:testStep type="restrequest" name="GETCard" id="595139b7-78bf-4f6d-90cf-f5ff71da4d2d"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/payment/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GETCard" id="a3fd5a5f-689c-4ed1-ab07-825d90d5dc82" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#CUST_REG_Encoded}"/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
@@ -12677,7 +12693,7 @@ def cardReferenceProperty = testRunner.testCase.testSuite.getPropertyValue( "CAR
 log.info "Property cardReference: "+cardReferenceProperty  
 //context.testRunner.testCase.testSuite.setPropertyValue("CUSTOMER_REGISTERED", stripped_msisdn)  
 context.testRunner.testCase.testSuite.setPropertyValue("CARD_REFERENCE", cardReference)  
-log.info "Property updated to: "+cardReference </script></con:config></con:testStep><con:testStep type="restrequest" name="RemoveCard" id="0357d333-4e9b-4025-a235-90cc21217768"><con:settings/><con:config service="MyTescoMobile" methodName="DELETE" resourcePath="/payment/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Copy of RemoveCard" id="a3fd5a5f-689c-4ed1-ab07-825d90d5dc82" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
+log.info "Property updated to: "+cardReference </script></con:config></con:testStep><con:testStep type="restrequest" name="RemoveCard" id="0357d333-4e9b-4025-a235-90cc21217768"><con:settings/><con:config service="MyTescoMobile" methodName="DELETE" resourcePath="/payment/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="RemoveCard" id="a3fd5a5f-689c-4ed1-ab07-825d90d5dc82" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#CUST_REG_Encoded}"/>
   &lt;con:entry key="User-Agent" value="MyTescoApp/1.1"/>
   &lt;con:entry key="Accept" value="application/json"/>
@@ -13010,7 +13026,11 @@ where username = '${#TestSuite#NOT_REGISTERED_V2}'</con:query><con:assertion typ
    "country": "IRL",
    "email": "a@b.com",
    "securityQuestionPassword": "${Find Bulk Customer#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/CSPASSWORD[1]}"
-}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="598cc82f-f2ce-4852-8872-b06b674d9f3b" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="c6f29145-5c21-489d-bc75-2440f72fa58f"><con:settings/><con:config><delay>20000</delay></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="7d37c0ed-fd53-4341-b885-336e94ef1492"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
+}</con:request><con:originalUri>http://10.252.7.16/MyTM/restws/user/selfCareRegistration/</con:originalUri><con:assertion type="Simple NotContains" id="598cc82f-f2ce-4852-8872-b06b674d9f3b" name="Not Contains"><con:configuration><token>errorCode</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Wait for portal account setup to complete" id="c6f29145-5c21-489d-bc75-2440f72fa58f"><con:settings/><con:config><delay>5000</delay></con:config></con:testStep><con:testStep type="jdbc" name="Check if new customer and account creation is complete" id="5eacb011-e375-46a0-8d2e-ea0190d2011d"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>BSCS</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password><con:query>select request from mdsrrtab
+where co_id = (select co_id from 
+contr_services_cap where cs_deactiv_date is null
+and dn_id = (select dn_id from directory_number 
+where dn_num = '${CreateAccount#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'))</con:query><con:properties/></con:config></con:testStep><con:testStep type="goto" name="If complete then proceed" id="fd876949-291a-433c-9e6d-71c92839be52"><con:settings/><con:config xsi:type="con:GotoStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:condition><con:name>pending request</con:name><con:type>XPATH</con:type><con:expression>exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1])</con:expression><con:targetStep>Wait for portal account setup to complete</con:targetStep></con:condition><con:condition><con:name>no pending request</con:name><con:type>XPATH</con:type><con:expression>not(exists(//Results[1]/ResultSet[1]/Row[1]/REQUEST[1]))</con:expression><con:targetStep>GetRegistrationStatus</con:targetStep></con:condition></con:config></con:testStep><con:testStep type="restrequest" name="GetRegistrationStatus" id="7d37c0ed-fd53-4341-b885-336e94ef1492"><con:settings/><con:config service="MyTescoMobile" methodName="GET" resourcePath="/user/registration/{msisdn}" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetRegistrationStatus" id="e9298d74-163b-423d-95ac-61e1675b53dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#REST}</con:endpoint><con:request/><con:originalUri>http://10.252.7.16/MyTM/restws/user/registration/353894782931</con:originalUri><con:assertion type="Simple Contains" id="8b55d9bf-6e94-4c6d-96cf-5ec5ca5cf391" name="Contains CUSTOMER_REGISTERED"><con:configuration><token>SELFCARE_REGISTERED</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="XPath Match" id="aa2b9288-c068-437d-9506-1e7328f404c2" name="MSISDN Match"><con:configuration><path>declare namespace ns1='http://10.252.7.16/MyTM/restws/user/registration/353894782931';
 //ns1:Response[1]/ns1:msisdn[1]</path><content>${CreateAccount#Response#declare namespace ns12='http://conductor/account/vo/wrapper/'; //ns12:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:environmentSpec><con:entry environmentId="cc95b419-ef9d-400b-93d7-8e00e0577411"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:testStep type="request" name="ResetPassword" id="0124d447-6f90-41b6-aaf5-6ce283167ebb"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>PortalUserWebServiceBinding</con:interface><con:operation>ResetPassword</con:operation><con:request name="ResetPassword" id="63d59e9a-c535-4a3d-bf6b-850fcc27340a" defaultOutgoingWss="TMI" defaultIncomingWss="" outgoingWss="TMI" incomingWss=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>${#Project#SOAP}/conductor/webservices/Portal_User_1_0</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://conductor/portaluser/vo/wrapper/">
    <soapenv:Header/>
    <soapenv:Body>
@@ -13037,7 +13057,7 @@ String encoded = msisdnAndPassword.bytes.encodeBase64().toString()
 log.info "The encrypted string is: "+encoded
 
 context.testRunner.testCase.testSuite.setPropertyValue("NOT_REG_Encoded_V2", "Basic "+encoded)
-</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6872c9f6-af36-4394-b59a-4bdd997ad360</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>583ac26e-672e-451a-a131-29d49cf21ad8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a84b8c67-ae7f-497f-bf29-3644e4f71e50</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>32ae860d-9715-4678-ad13-98da3c62ce4c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>326ebe0c-8054-4c27-9456-d1c3792867c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>242c5b57-dc77-40b9-8bca-41b384a5f249</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>eb428419-99f5-4069-93f5-3d67d2689ddb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>f926d898-be58-4ea6-9329-0ef061a86aff</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="833f7fdb-c2a8-4941-ab0c-2ed34b1155df" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GET account/balance - Unlimited Talk" searchProperties="true" timeout="0"><con:settings/><con:testStep type="jdbc" name="Delete any active bundles for account" id="58c9128e-c7a3-4fa9-9fc1-f1dc03a03185"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>Conductor1</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password><con:query>delete from applied_bundles
+</script></con:config></con:testStep><con:properties><con:property><con:name>Test</con:name><con:value>0894100360</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>d5ed4b83-bd33-4d7c-a906-060aba4abcd0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8ba918cf-420c-457f-8fe5-7d52721ffb64</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0676635b-9110-461a-9641-c02e8fbd27c5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>6872c9f6-af36-4394-b59a-4bdd997ad360</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>583ac26e-672e-451a-a131-29d49cf21ad8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a84b8c67-ae7f-497f-bf29-3644e4f71e50</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>32ae860d-9715-4678-ad13-98da3c62ce4c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>326ebe0c-8054-4c27-9456-d1c3792867c0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>242c5b57-dc77-40b9-8bca-41b384a5f249</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>eb428419-99f5-4069-93f5-3d67d2689ddb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>f926d898-be58-4ea6-9329-0ef061a86aff</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5eacb011-e375-46a0-8d2e-ea0190d2011d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>fd876949-291a-433c-9e6d-71c92839be52</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="833f7fdb-c2a8-4941-ab0c-2ed34b1155df" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GET account/balance - Unlimited Talk" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="jdbc" name="Delete any active bundles for account" id="58c9128e-c7a3-4fa9-9fc1-f1dc03a03185"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>Conductor1</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password><con:query>delete from applied_bundles
 where msisdn = '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'
 and expiry_time > sysdate</con:query><con:properties/></con:config></con:testStep><con:testStep type="jdbc" name="Delete any active TRTs for account" id="d92272d5-ed98-4007-9ce8-d4c182561639"><con:settings><con:setting id="prettyPrintResponse">true</con:setting></con:settings><con:config xsi:type="con:JdbcRequestTestStep" convertColumnNamesToUpperCase="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dbConnectionName>Conductor1</con:dbConnectionName><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password><con:query>delete from time_recurring_topups
 where msisdn = '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'
@@ -13250,7 +13270,7 @@ new File( inputFile ).append("\n"+msisdn+":0,0,0,0,0")
 String after_append = new File( inputFile ).getText( 'UTF-8' )
 String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
 new File( inputFile ).write(stripped_after)
-log.info "Balances written to da.txt"
+log.info "Balances written to ac.txt"
 
 
 // Upload updated file
@@ -18781,19 +18801,10 @@ String remoteuploadlocation = context.expand( '${#Project#props dir}' )
     } finally {
         log.info("sftp upload process complete")
     }</script></con:config></con:testStep><con:testStep type="groovy" name="Add Usage to ac.txt" id="952d127b-ad1d-4244-b1b8-9443eb603319"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "ac.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write(msisdn+":0,1,1,0,1024")
-log.info "Balances written to ac.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -18808,12 +18819,77 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"ac.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
+    try {
+    	log.info("Starting sftp download process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\ac.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^"+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\n"+msisdn+":0,1,1,0,1024")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
     try {
     	log.info("Starting sftp upload process")
     	Session session = null;
@@ -18837,8 +18913,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -18847,14 +18923,6 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-       if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
         log.info("sftp upload process complete")
     }
 </script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - wish usage" id="04136333-4a0c-418d-9396-dc1a532a3475"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - wish usage" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
@@ -23904,19 +23972,10 @@ and expiry_time > sysdate</con:query><con:properties/></con:config></con:testSte
 where msisdn = '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13='http://conductor/account/vo/wrapper/'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}'
 and topup_count_remaining &lt;> 0
 and status != -99</con:query><con:properties/></con:config></con:testStep><con:testStep type="groovy" name="Set no balances in da.txt" id="fd3efada-a0d0-4bc6-8152-c94f95400c0d"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "da.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write("MSISDN="+msisdn+",0=0,1=0,2=0,3=0,4=0,5=0,6=0,7=0,8=0,9=0,10=0")
-log.info "Balances written to da.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -23931,21 +23990,29 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"da.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
     try {
-    	log.info("Starting sftp upload process")
+    	log.info("Starting sftp download process")
     	Session session = null;
+    	log.info("Session defined")
         Channel channel = null;		
         JSch ssh = new JSch();
-        		
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
         session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
         session.connect();
         log.info("Connected to session")
         		
@@ -23954,8 +24021,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -23964,14 +24031,69 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-        if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\da.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^MSISDN="+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\nMSISDN="+msisdn+",0=0,1=0,2=0,3=0,4=0,5=0,6=0,7=0,8=0,9=0,10=0")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
+    try {
+    	log.info("Starting sftp upload process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
         log.info("sftp upload process complete")
     }</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - no bundles or topups" id="d8b7aea5-c038-4fc3-8b0c-73a27a02630e"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - no bundles or topups" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#NOT_REG_Encoded_V2}"/>
@@ -24324,19 +24446,10 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
     </serviceStatus>
   </e>
 </accountBalance>]]></content><allowWildcards>true</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>msisdn</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Set Simply Value Topup Allowances in da.txt" id="3b014273-9309-4fca-b65f-faa4d7392938"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "da.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand('${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}')
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write("MSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=0,5=10000,6=0,7=300,8=0,9=10485760,10=0")
-log.info "Balances written to da.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -24351,21 +24464,29 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"da.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
     try {
-    	log.info("Starting sftp upload process")
+    	log.info("Starting sftp download process")
     	Session session = null;
+    	log.info("Session defined")
         Channel channel = null;		
         JSch ssh = new JSch();
-        		
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
         session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
         session.connect();
         log.info("Connected to session")
         		
@@ -24374,8 +24495,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -24384,14 +24505,69 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-        if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\da.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^MSISDN="+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\nMSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=0,5=10000,6=0,7=300,8=0,9=10485760,10=0")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
+    try {
+    	log.info("Starting sftp upload process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
         log.info("sftp upload process complete")
     }</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - topped by up €15, no bundles" id="a72fc730-ac3d-4216-b979-54cdaafda8ec"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - topped by up €15, no bundles" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#NOT_REG_Encoded_V2}"/>
@@ -24856,19 +25032,10 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
   <con:entry key="id" value="DA10"/>
   <con:entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}"/>
 </con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Add Add-On balances to da.txt" id="8ae5a44f-76c0-4ff2-8f20-1c7d3292b6cf"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "da.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write("MSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=0,5=10000,6=1406976,7=300,8=0,9=10485760,10=0")
-log.info "Balances written to da.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -24883,21 +25050,29 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"da.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
     try {
-    	log.info("Starting sftp upload process")
+    	log.info("Starting sftp download process")
     	Session session = null;
+    	log.info("Session defined")
         Channel channel = null;		
         JSch ssh = new JSch();
-        		
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
         session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
         session.connect();
         log.info("Connected to session")
         		
@@ -24906,8 +25081,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -24916,14 +25091,69 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-        if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\da.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^MSISDN="+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\nMSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=0,5=10000,6=1406976,7=300,8=0,9=10485760,10=0")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
+    try {
+    	log.info("Starting sftp upload process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
         log.info("sftp upload process complete")
     }</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - topped by up €15 and two data add-ons, no recurring" id="55cdb35e-f728-4356-ac9c-6f4deb891812"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - topped by up €15 and two data add-ons, no recurring" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#NOT_REG_Encoded_V2}"/>
@@ -25434,19 +25664,10 @@ and expiry_time > sysdate</con:query><con:assertion type="Simple Contains" id="7
   <con:entry key="id" value="DA10"/>
   <con:entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}"/>
 </con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Add Recurring balances to da.txt" id="7fda5ed9-7074-4a59-8250-499fc9180b3c"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "da.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write("MSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=5000,5=10000,6=6649856,7=300,8=0,9=10485760,10=0")
-log.info "Balances written to da.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -25461,21 +25682,29 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"da.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
     try {
-    	log.info("Starting sftp upload process")
+    	log.info("Starting sftp download process")
     	Session session = null;
+    	log.info("Session defined")
         Channel channel = null;		
         JSch ssh = new JSch();
-        		
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
         session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
         session.connect();
         log.info("Connected to session")
         		
@@ -25484,8 +25713,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -25494,14 +25723,69 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-        if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\da.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^MSISDN="+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\nMSISDN="+msisdn+",0=1500,1=300,2=1,3=1,4=5000,5=10000,6=6649856,7=300,8=0,9=10485760,10=0")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
+    try {
+    	log.info("Starting sftp upload process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
         log.info("sftp upload process complete")
     }</script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - topped by up €15, two data add-ons, data and text recurring bundles" id="9a3c6796-e095-497a-8e12-322e30318060"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - topped by up €15, two data add-ons, data and text recurring bundles" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
   &lt;con:entry key="Authorization" value="${#TestSuite#NOT_REG_Encoded_V2}"/>
@@ -25980,19 +26264,10 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
     </serviceStatus>
   </e>
 </accountBalance>]]></content><allowWildcards>true</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>msisdn</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Add usage to da.txt" id="d5097c32-2c92-4414-b903-b22ae0eef7a0"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
 log.info "Directory created"
+log.info "New Dir is: "+localDir
 
-def fileName = "da.txt"
-
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
-
-def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
-log.info "MSISDN is "+msisdn
-
-
-inputFile.write("MSISDN="+msisdn+",0=1500,1=299,2=1,3=1,4=4999,5=9999,6=6648832,7=299,8=0,9=10484736,10=0")
-log.info "Balances written to da.txt"
 
 @Grab(group='commons-net', module='commons-net', version='2.0')
 @Grab(group='com.jcraft', module='jsch', version='0.1.51')
@@ -26007,21 +26282,29 @@ String ftpdomain = "10.251.25.48"
 int ftpport = 22
 String ftpusername = "wlsadmin"
 String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"da.txt"
+
 /////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 
 
+//Download da.txt
     try {
-    	log.info("Starting sftp upload process")
+    	log.info("Starting sftp download process")
     	Session session = null;
+    	log.info("Session defined")
         Channel channel = null;		
         JSch ssh = new JSch();
-        		
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
         session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
         session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
         session.connect();
         log.info("Connected to session")
         		
@@ -26030,8 +26313,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -26040,49 +26323,36 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-        if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
-        log.info("sftp upload process complete")
-    }</script></con:config></con:testStep><con:testStep type="groovy" name="Add Usage to ac.txt" id="0262f758-7e43-4ba4-a807-2e381ba0f93a"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
-log.info "Directory created"
 
-def fileName = "ac.txt"
+        log.info("sftp downloadload process complete")
+    }
 
-def inputFile = new File("C:\\SoapUI\\"+fileName)
-log.info "File created"
 
+//Update file
+
+def inputFile = "C:\\SoapUI\\da.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
 def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
 log.info "MSISDN is "+msisdn
 
 
-inputFile.write(msisdn+":0,1,1,0,1024")
-log.info "Balances written to ac.txt"
-
-@Grab(group='commons-net', module='commons-net', version='2.0')
-@Grab(group='com.jcraft', module='jsch', version='0.1.51')
-
-import org.apache.commons.net.ftp.FTPSClient
-import com.jcraft.jsch.*;
-
-/////////////////////////////////////////////////////////////
-/////////////////////////Configs/////////////////////////////
-/////////////////////////////////////////////////////////////
-String ftpdomain = "10.251.25.48"
-int ftpport = 22
-String ftpusername = "wlsadmin"
-String ftppassword = "Ml0wls1"
-String localfilelocation = inputFile
-String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
-/////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^MSISDN="+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\nMSISDN="+msisdn+",0=1500,1=299,2=1,3=1,4=4999,5=9999,6=6648832,7=299,8=0,9=10484736,10=0")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
 
 
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
     try {
     	log.info("Starting sftp upload process")
     	Session session = null;
@@ -26106,8 +26376,8 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         log.info("Connected to channel")
         		
         ChannelSftp sftp = (ChannelSftp) channel;
-        sftp.put(localfilelocation, remotefilelocation);
-        log.info("File Uploaded " + localfilelocation + " TO " + remotefilelocation)
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
         
     } catch (JSchException e) {
         e.printStackTrace();
@@ -26116,14 +26386,130 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
         e.printStackTrace();
         log.info("SftpException " + e.printStackTrace())
     } finally {
-       if (channel != null) {
-            channel.disconnect();
-            log.info("Disconnected from channel")
-        }
-        if (session != null) {
-            session.disconnect();
-            log.info("Disconnected from session")
-        }
+        log.info("sftp upload process complete")
+    }</script></con:config></con:testStep><con:testStep type="groovy" name="Add Usage to ac.txt" id="0262f758-7e43-4ba4-a807-2e381ba0f93a"><con:settings/><con:config><script>def inputDir = new File ("C:\\SoapUI\\").mkdir()
+def localDir = "C:\\SoapUI\\"
+log.info "Directory created"
+log.info "New Dir is: "+localDir
+
+
+@Grab(group='commons-net', module='commons-net', version='2.0')
+@Grab(group='com.jcraft', module='jsch', version='0.1.51')
+
+import org.apache.commons.net.ftp.FTPSClient
+import com.jcraft.jsch.*;
+
+/////////////////////////////////////////////////////////////
+/////////////////////////Configs/////////////////////////////
+/////////////////////////////////////////////////////////////
+String ftpdomain = "10.251.25.48"
+int ftpport = 22
+String ftpusername = "wlsadmin"
+String ftppassword = "Ml0wls1"
+String localdownloadlocation = localDir
+String remotedownloadlocation = context.expand( '${#Project#props dir}' )+"ac.txt"
+
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+
+
+//Download da.txt
+    try {
+    	log.info("Starting sftp download process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.get(remotedownloadlocation, localdownloadlocation);
+        log.info("File Downloaded " + remotedownloadlocation + " TO " + localdownloadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
+
+        log.info("sftp downloadload process complete")
+    }
+
+
+//Update file
+
+def inputFile = "C:\\SoapUI\\ac.txt"
+log.info "File name is: "+inputFile
+
+//def msisdn = context.expand( '${Find Simply Value Account#ResponseAsXml#//Results[1]/ResultSet[1]/Row[1]/DN_NUM[1]}' )
+def msisdn = context.expand( '${#[CR-O2-1101 Balance Presentation Alignment - PAYG#Create and Register New Unlimited Talk Account#CreateAccount]#Response#declare namespace ns13=\'http://conductor/account/vo/wrapper/\'; //ns13:CreateAccountResponse[1]/AccountDetails[1]/Msisdn[1]}' )
+log.info "MSISDN is "+msisdn
+
+
+String contents = new File( inputFile ).getText( 'UTF-8' )
+log.info "contents are: "+contents
+contents = contents.replaceAll("(?m)^"+msisdn+".*","");
+log.info "stripped contents are: "+contents
+new File( inputFile ).write(contents)
+new File( inputFile ).append("\n"+msisdn+":0,1,1,0,1024")
+String after_append = new File( inputFile ).getText( 'UTF-8' )
+String stripped_after = after_append.replaceAll("(?m)^[ \t]*\r?\n", "");
+new File( inputFile ).write(stripped_after)
+log.info "Balances written to da.txt"
+
+
+// Upload updated file
+String localuploadlocation = inputFile
+String remoteuploadlocation = context.expand( '${#Project#props dir}' )
+    try {
+    	log.info("Starting sftp upload process")
+    	Session session = null;
+    	log.info("Session defined")
+        Channel channel = null;		
+        JSch ssh = new JSch();
+
+        log.info("Attempting to create session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session = ssh.getSession(ftpusername, ftpdomain, ftpport);
+        log.info("Created session following parameters: "+ftpusername+", "+ftpdomain+", "+ftpport)
+        session.setConfig("StrictHostKeyChecking", "no"); //auto accept secure host
+        session.setPassword(ftppassword);
+        
+        session.setConfig("PreferredAuthentications", "publickey,keyboard-interactive,password");
+        
+        session.connect();
+        log.info("Connected to session")
+        		
+        channel = session.openChannel("sftp");
+        channel.connect();
+        log.info("Connected to channel")
+        		
+        ChannelSftp sftp = (ChannelSftp) channel;
+        sftp.put(localuploadlocation, remoteuploadlocation);
+        log.info("File Uploaded " + localuploadlocation + " TO " + remoteuploadlocation)
+        
+    } catch (JSchException e) {
+        e.printStackTrace();
+        log.info("JSchException " + e.printStackTrace())
+    } catch (SftpException e) {
+        e.printStackTrace();
+        log.info("SftpException " + e.printStackTrace())
+    } finally {
         log.info("sftp upload process complete")
     }
 </script></con:config></con:testStep><con:testStep type="restrequest" name="GET /account/balance - with usage" id="9d210c62-7f71-4806-8384-e195c730358c"><con:settings/><con:config service="MyTescoMobile" resourcePath="/account/balance/{msisdn}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GET /account/balance - with usage" id="cf8d6815-21da-414e-830f-94c1f4dd860c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment xmlns:con="http://eviware.com/soapui/config">
@@ -26602,4 +26988,4 @@ String remotefilelocation = "/opt/FJSapps/Conductor/MVNE_TEST_1/props"
       </e>
     </serviceStatus>
   </e>
-</accountBalance>]]></content><allowWildcards>true</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>msisdn</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>b3b0f969-1eec-4420-a17b-52285a681109</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2ec398f5-68c7-491f-8837-dc970963b741</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>470c4f7f-453e-4437-a70d-740a203300b6</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2213e1b7-d61b-4bb2-8874-371fe48ff914</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac88d12f-c39b-497a-bd38-572f786bd979</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>429aed53-5de5-432d-9ba6-f105fc47fc36</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>47b160b9-be71-4606-a8f2-7ffb1f9f5cce</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>65233c6a-f29c-4b18-9b1f-371610eeebc8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>92627a9a-5e6a-4bc3-9b08-414ecb883392</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>892e555c-20ca-49fe-9793-c739a90efb68</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>773fea6f-2017-407e-abfc-e00995267a00</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9e6532de-dd05-4f42-9f43-fecabcaf6b87</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9a1dbaf7-17b3-4bb7-8d5b-02eadcded6e7</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d5097c32-2c92-4414-b903-b22ae0eef7a0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>NOT_REGISTERED_V2</con:name><con:value>0894010008</con:value></con:property><con:property><con:name>NOT_REG_Encoded_V2</con:name><con:value>Basic MDg5NDAxMDAwODpwYXNzd29yZA==</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:endpointStrategy xsi:type="con:DefaultEndpointStrategy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText" wssTimeToLive="">http://10.251.25.48:10011/conductor/webservices/accountservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" incomingWss="" outgoingWss="TMI">https://mvne.o2.co.uk/services/Customer_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" outgoingWss="TMI">https://mvne.o2.co.uk/services/Portal_User_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10031/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:10311/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:7001/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://${#Project#projectServiceURL}/conductor/webservices/Bundle_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10031/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:10311/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint></con:endpointStrategy><con:requirements/><con:properties><con:property><con:name>SOAP</con:name><con:value>http://10.251.25.48:10011</con:value></con:property><con:property><con:name>REST</con:name><con:value>http://10.252.7.16:48080/MyTM/restws/</con:value></con:property><con:property><con:name>3rd Party</con:name><con:value>http://10.252.65.32:51445</con:value></con:property><con:property><con:name>props dir</con:name></con:property></con:properties><con:wssContainer><con:outgoing><con:name>TMI</con:name><con:username>test</con:username><con:password>test</con:password><con:entry type="Username" password="test"><con:configuration><addCreated>true</addCreated><addNonce>true</addNonce><passwordType>PasswordText</passwordType></con:configuration></con:entry><con:usePredefinedOrder>false</con:usePredefinedOrder></con:outgoing></con:wssContainer><con:databaseConnectionContainer><con:databaseConnection><con:name>BSCS3</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.150:1521:BSCS3</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/><con:environment name="MVNE_TEST1_ONLINE" id="7107a02f-a685-4cb1-98f2-7cf9b7bd880d"><con:service type="REST" name="MyTescoMobile"><con:endpoint authProfile="No Authorization" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.252.7.16:48080/MyTM/restws/</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccountWebServiceSoapBinding"><con:endpoint authProfile="No Authorization" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/accountservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="CustomerWebServiceBinding"><con:endpoint authProfile="No Authorization" wssType="" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/customerservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="PortalUserWebServiceBinding"><con:endpoint authProfile="No Authorization" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/portaluserservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccount2WebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint></con:service><con:service type="SOAP" name="BundleWebServiceBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/Bundle_1_0</con:endpoint></con:service><con:service type="SOAP" name="ConductorPlanChangeWebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/planchangeservice_1_0.wsdl</con:endpoint></con:service><con:property><con:name>3rd Party</con:name><con:value/></con:property><con:property><con:name>props dir</con:name><con:value>/opt/FJSapps/Conductor/MVNE_TEST_1/props/</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:environment id="cc95b419-ef9d-400b-93d7-8e00e0577411" name="T3"><con:service type="SOAP" name="ConductorAccountWebServiceSoapBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/accountservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="CustomerWebServiceBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/customerservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="PortalUserWebServiceBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/portaluserservice_1_0.wsdl</con:endpoint></con:service><con:service type="REST" name="MyTescoMobile"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.252.7.16:38080/MyTM/restws/</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccount2WebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint></con:service><con:service type="SOAP" name="BundleWebServiceBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="PasswordText">http://${#Project#projectServiceURL}/conductor/webservices/Bundle_1_0</con:endpoint></con:service><con:service type="SOAP" name="ConductorPlanChangeWebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent"/></con:service><con:property><con:name>3rd Party</con:name><con:value/></con:property><con:property><con:name>props dir</con:name><con:value>/opt/FJSapps/Conductor/MVNE_TEST_3/props/</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor3/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor3</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.150:1521:BSCS3</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:authRepository/><con:tags/></con:soapui-project>
+</accountBalance>]]></content><allowWildcards>true</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="msisdn" value="${#TestSuite#NOT_REGISTERED_V2}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>msisdn</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>b3b0f969-1eec-4420-a17b-52285a681109</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2ec398f5-68c7-491f-8837-dc970963b741</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>470c4f7f-453e-4437-a70d-740a203300b6</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2213e1b7-d61b-4bb2-8874-371fe48ff914</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ac88d12f-c39b-497a-bd38-572f786bd979</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>429aed53-5de5-432d-9ba6-f105fc47fc36</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>47b160b9-be71-4606-a8f2-7ffb1f9f5cce</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>65233c6a-f29c-4b18-9b1f-371610eeebc8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>92627a9a-5e6a-4bc3-9b08-414ecb883392</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>892e555c-20ca-49fe-9793-c739a90efb68</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>773fea6f-2017-407e-abfc-e00995267a00</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9e6532de-dd05-4f42-9f43-fecabcaf6b87</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>9a1dbaf7-17b3-4bb7-8d5b-02eadcded6e7</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>d5097c32-2c92-4414-b903-b22ae0eef7a0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>NOT_REGISTERED_V2</con:name><con:value>0894010016</con:value></con:property><con:property><con:name>NOT_REG_Encoded_V2</con:name><con:value>Basic MDg5NDAxMDAxNjpwYXNzd29yZA==</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:endpointStrategy xsi:type="con:DefaultEndpointStrategy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText" wssTimeToLive="">http://10.251.25.48:10011/conductor/webservices/accountservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" incomingWss="" outgoingWss="TMI">https://mvne.o2.co.uk/services/Customer_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" outgoingWss="TMI">https://mvne.o2.co.uk/services/Portal_User_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10031/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:10311/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:7001/conductor/webservices/Account_2_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://${#Project#projectServiceURL}/conductor/webservices/Bundle_1_0</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://10.251.25.48:10031/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint><con:endpoint mode="COMPLEMENT" username="test" password="test" wssType="PasswordText">http://localhost:10311/conductor/webservices/bundleservice_1_0.wsdl</con:endpoint></con:endpointStrategy><con:requirements/><con:properties><con:property><con:name>SOAP</con:name><con:value>http://10.251.25.48:10011</con:value></con:property><con:property><con:name>REST</con:name><con:value>http://10.252.7.16:48080/MyTM/restws/</con:value></con:property><con:property><con:name>3rd Party</con:name><con:value>http://10.252.65.32:51445</con:value></con:property><con:property><con:name>props dir</con:name></con:property></con:properties><con:wssContainer><con:outgoing><con:name>TMI</con:name><con:username>test</con:username><con:password>test</con:password><con:entry type="Username" password="test"><con:configuration><addCreated>true</addCreated><addNonce>true</addNonce><passwordType>PasswordText</passwordType></con:configuration></con:entry><con:usePredefinedOrder>false</con:usePredefinedOrder></con:outgoing></con:wssContainer><con:databaseConnectionContainer><con:databaseConnection><con:name>BSCS3</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.150:1521:BSCS3</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/><con:environment name="MVNE_TEST1_ONLINE" id="7107a02f-a685-4cb1-98f2-7cf9b7bd880d"><con:service type="REST" name="MyTescoMobile"><con:endpoint authProfile="No Authorization" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.252.7.16:48080/MyTM/restws/</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccountWebServiceSoapBinding"><con:endpoint authProfile="No Authorization" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/accountservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="CustomerWebServiceBinding"><con:endpoint authProfile="No Authorization" wssType="" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/customerservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="PortalUserWebServiceBinding"><con:endpoint authProfile="No Authorization" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/portaluserservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccount2WebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint></con:service><con:service type="SOAP" name="BundleWebServiceBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/Bundle_1_0</con:endpoint></con:service><con:service type="SOAP" name="ConductorPlanChangeWebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" wssType="PasswordText" wssTimeToLive="" outgoingWss="TMI" incomingWss="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10011/conductor/webservices/planchangeservice_1_0.wsdl</con:endpoint></con:service><con:property><con:name>3rd Party</con:name><con:value/></con:property><con:property><con:name>props dir</con:name><con:value>/opt/FJSapps/Conductor/MVNE_TEST_1/props/</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor1/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor1</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.160:1521:BSCSSBY2</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:environment id="cc95b419-ef9d-400b-93d7-8e00e0577411" name="T3"><con:service type="SOAP" name="ConductorAccountWebServiceSoapBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/accountservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="CustomerWebServiceBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/customerservice_1_0.wsdl</con:endpoint></con:service><con:service type="SOAP" name="PortalUserWebServiceBinding"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="TMI" wssTimeToLive="" wssType="PasswordText" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.251.25.48:10031/conductor/webservices/portaluserservice_1_0.wsdl</con:endpoint></con:service><con:service type="REST" name="MyTescoMobile"><con:endpoint authProfile="No Authorization" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://10.252.7.16:38080/MyTM/restws/</con:endpoint></con:service><con:service type="SOAP" name="ConductorAccount2WebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="PasswordText">http://10.251.25.48:10011/conductor/webservices/Account_2_0</con:endpoint></con:service><con:service type="SOAP" name="BundleWebServiceBinding"><con:endpoint authProfile="Inherit From Parent" username="test" password="test" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="PasswordText">http://${#Project#projectServiceURL}/conductor/webservices/Bundle_1_0</con:endpoint></con:service><con:service type="SOAP" name="ConductorPlanChangeWebServiceSoapBinding"><con:endpoint authProfile="Inherit From Parent"/></con:service><con:property><con:name>3rd Party</con:name><con:value/></con:property><con:property><con:name>props dir</con:name><con:value>/opt/FJSapps/Conductor/MVNE_TEST_3/props/</con:value></con:property><con:databaseConnectionContainer><con:databaseConnection><con:name>Conductor</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:conductor3/PASS_VALUE@10.251.7.140:1521:CONDBOX</con:connectionString><con:password>conductor3</con:password></con:databaseConnection><con:databaseConnection><con:name>BSCS</con:name><con:driver>oracle.jdbc.driver.OracleDriver</con:driver><con:connectionString>jdbc:oracle:thin:SYSADM/PASS_VALUE@10.251.7.150:1521:BSCS3</con:connectionString><con:password>SYSADM</con:password></con:databaseConnection></con:databaseConnectionContainer></con:environment><con:authRepository/><con:tags/></con:soapui-project>
